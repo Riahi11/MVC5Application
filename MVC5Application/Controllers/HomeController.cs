@@ -113,7 +113,7 @@ namespace MVC5Application.Controllers
             //ZipFile.CreateFromDirectory(startPath, zipPath);
             //ZipFile.ExtractToDirectory(zipPath, extractPath);
 
-            throw new Exception("exception pour tester le filtre LogFilter");
+            //throw new Exception("exception pour tester le filtre LogFilter");
         }
     }
 }
