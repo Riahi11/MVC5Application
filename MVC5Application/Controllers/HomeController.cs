@@ -110,8 +110,8 @@ namespace MVC5Application.Controllers
             string zipPath = "D:\\result.zip";
             string extractPath = "D:\\extract";
 
-            //ZipFile.CreateFromDirectory(startPath, zipPath);
-            //ZipFile.ExtractToDirectory(zipPath, extractPath);
+            ZipFile.CreateFromDirectory(startPath, zipPath);
+            ZipFile.ExtractToDirectory(zipPath, extractPath);
 
             //throw new Exception("exception pour tester le filtre LogFilter");
         }
